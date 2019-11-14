@@ -27,7 +27,7 @@ for (let i = 1;i<=countToX;i++) {
 };        
 
 
- // output to HTML page example
+ // output to HTML page example 
 for (i = 1;i<=countToX;i++) {          // Q: why does this 2nd loop works also if I declare i (let = i) for the 2nd time?
     if (i % 3 === 0 && i % 5 === 0) {
         result += i+": fizzbuzz \n";   
